@@ -173,6 +173,11 @@ procurar por alguma palavra dentro de um arquivo
 
     grep nome-desejavel nome-arquivo.ext
 
+procurar uma palavra dentro de varios arquivos no diretorio
+
+    grep nome-desejavel . *
+    
+ 
 
 
 
