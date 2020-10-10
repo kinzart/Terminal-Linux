@@ -21,9 +21,29 @@ update
 
     sudo apt-get update
     
+
+interromper processo
+
+    ctrl + c
+    
+
+parar processo
+
+    ctrl + z
+
+
+mover para o inicio da linha
+
+    ctrl + a
     
     
+mover para o fim da linha
+
+    ctrl + e
     
+    
+
+
 <h2>caminhando em diretorios:</h2>
 
 
@@ -149,8 +169,9 @@ procurar aruqivos em um diretorio atual
     find . -name nome-arquivo.ext
     
 
+procurar por alguma palavra dentro de um arquivo
 
-
+    grep nome-desejavel nome-arquivo.ext
 
 
 
