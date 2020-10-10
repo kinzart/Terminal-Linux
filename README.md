@@ -169,17 +169,21 @@ procurar aruqivos em um diretorio atual
     find . -name nome-arquivo.ext
     
 
-procurar por alguma palavra dentro de um arquivo
+procurar por alguma palavra ou texto dentro de um arquivo
 
     grep nome-desejavel nome-arquivo.ext
 
-procurar uma palavra dentro de varios arquivos no diretorio
+procurar uma palavra ou texto dentro de varios arquivos no diretorio atual
 
     grep nome-desejavel . *
     
- 
+procurar texto ou palavra no diretorio atual e nos subdiretorios 
 
+    grep -R nome-desejavel *
 
+gravar saidas da pesquisa em um arquivo
+
+    grep nome-desejavel arquivo.txt > arquivodesaida.txt
 
 
 
