@@ -189,7 +189,16 @@ gravar saidas da pesquisa em um arquivo
 
 
 
+Reinstalaçao do nodeJS (para a proxima versao)
 
+        sudo npm cache clean -f
+
+        sudo npm install -g n
+
+        sudo n stable 
+        
+  
+  obs: no lugar de stable, colocar a versao (12.6.1)
 
 
 
