@@ -17,10 +17,18 @@ admin
     sudo
 
 
+
 update
 
     sudo apt-get update
     
+
+
+trocar senha root:
+    
+    sudo passwd root
+    
+
 
 interromper processo
 
