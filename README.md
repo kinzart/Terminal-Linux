@@ -129,17 +129,26 @@ criar um arquivo dentro de uma pasta existente
 
     touch diretorioX/nome-arquivo.ext 
 
+
 copiar arquivo (dentro do diretorio que esta o arquivo)
 
     cp nome-arquivo
-    
+ 
+ 
 copiar arquivo e enviar para outra pasta
 
     cp nome-arquivo.ext /diretorioX/diretorioY/aqui
+
+
+copiar todos arquivos dentro de um diretório para outro diretório
     
-mover o aruivo
+    cp * /home/dellamor/public_html/wp-content/uploads
+
+
+mover o arquivo
 
     mv nome-arquivo.ext /diretorioX/diretorioY/aqui
+    
     
 renomear arquivo
 
@@ -195,7 +204,23 @@ gravar saidas da pesquisa em um arquivo
 
 
 
+<h2>Compactando e desconpactando (zip)</h2>
 
+
+Compactando um arquivo e nomeando a pasta compactada
+    
+    zip arquivo nomedacompactacao.zip
+  
+  
+descompactando um arquivo no local
+
+    unzip pastacompactada.zip
+    
+    
+descompactando um arquivo em uma nova pasta
+
+    unzip pastacompactada.zip -d diretorio
+    
 
 Reinstalaçao do nodeJS (para a proxima versao)
 
