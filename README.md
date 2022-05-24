@@ -108,7 +108,7 @@ listar arquivos dentro do diretorio atual com detalhes
     ll
     
 
-<h2>Lendo</h2>
+<h2>Lendo conteudos</h2>
 
 lendo o conteudo interno do arquivo
 
@@ -121,6 +121,16 @@ colocando uma linha de codigo dentro do arquivo via terminal]
     echo "texto que vai colocar" >> arquivo.js
     
     
+apagando linha de dentro do arquivo (3ª linha)
+
+    sed -i '3d' arquivo.ext 
+    
+    
+apagando linhas de dentro do arquivo (3ª e 4ª linha)
+
+    sed -i '3,4d' arquivo.ext
+    
+
 
 
 <h2>Criar, mover, renomear e remover</h2>
