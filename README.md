@@ -107,6 +107,19 @@ listar arquivos dentro do diretorio atual com detalhes
 
     ll
     
+
+<h2>Lendo</h2>
+
+lendo o conteudo interno do arquivo
+
+    cat arquivo.ext
+    
+
+colocando uma linha de codigo dentro do arquivo via terminal]
+
+
+    echo "texto que vai colocar" >> arquivo.js
+    
     
 
 
