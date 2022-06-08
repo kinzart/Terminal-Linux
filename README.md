@@ -61,7 +61,7 @@ caminho para pasta atual
     pwd
 
 
-para mover um diretório acima
+para mover um diretório acima (backstage)
         
       cd.. 
 
@@ -115,7 +115,7 @@ lendo o conteudo interno do arquivo
     cat arquivo.ext
     
 
-colocando uma linha de codigo dentro do arquivo via terminal]
+colocando uma linha de codigo dentro do arquivo via terminal
 
 
     echo "texto que vai colocar" >> arquivo.js
@@ -262,3 +262,26 @@ Reinstalaçao do nodeJS (para a proxima versao)
 Reinstalaçao de desktop
     
     sudo apt-get remove --purge ubuntu-desktop && sudo apt-get install ubuntu-desktop
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ <h2>LOGANDO EM SITE DE UM VHM NO HOSTGATOR</h2>
+
+
+        ssh -p 22022 user@domain.com
+   
+   
+   Digite a senha do usuario cpanel quando pedir o password
+
+  
+  
+    
+    
+    
