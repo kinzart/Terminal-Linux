@@ -233,6 +233,23 @@ gravar saidas da pesquisa em um arquivo
 Compactando um arquivo e nomeando a pasta compactada
     
     zip arquivo nomedacompactacao.zip
+    
+
+
+Compactando diretorios e subdiretorios:
+
+    zip -r compactado.zip diretorio
+
+
+Compactando mais de um diretorio:
+
+    zip -r compactado.zip diretorio1 diretorio2 diretorio3
+
+
+Compactando diretorios e subdiretorios e ignorando algum diretorio indesejavel:
+
+    zip -r compactado.zip diretorio --exclude "/public_html/wp-content/uploads"
+  
   
   
 descompactando um arquivo no local
