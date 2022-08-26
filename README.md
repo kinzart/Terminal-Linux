@@ -225,6 +225,12 @@ gravar saidas da pesquisa em um arquivo
 
     grep nome-desejavel arquivo.txt > arquivodesaida.txt
 
+filtrar saidas da pesquisa e seus caminhos:
+
+    grep -R 'nome-desejavel' ./ | cut -d: -f1 | uniq
+
+
+
 
 
 <h2>Compactando e desconpactando (zip)</h2>
